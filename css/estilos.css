@@ -1,0 +1,169 @@
+body,h1,h2,h3,h4,h5,h6,p {font-family: "Raleway", sans-serif}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    line-height: 1.8;
+}
+
+header img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 60%;
+}
+h1 {
+    color: rgb(26, 9, 9);
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    color: rgb(26, 9, 9);  
+}
+.menu-list {
+    overflow: hidden;
+}
+.menu-item {
+    float: left;
+    padding: 1em;
+}
+li:first-child {
+    border-left: none;
+}
+.menu{
+    flex-direction: row;
+    align-items: center;
+    background-color: olive;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: white;
+  }
+
+/*para mostrar las historia del pueblo*/
+.team{
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+}
+.history-item{
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.history{
+    flex-direction: row;
+    width: 100%;
+    height:  100%;
+    display: flex;
+    padding: 10px;
+}
+
+/*Para el footer*/
+.footer{
+    padding: 10px;
+    flex-direction: row;
+    display: flex;
+    background-color: olive;
+}
+.footer-item{
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.footer-title{
+    background-color: white;
+}
+
+/* filas de las rutas */
+.ruta-item{
+  
+}
+.rutas{
+    padding: 10px;
+
+}
+.ruta-title{
+    background-color: olive;
+}
+.ruta-row{
+ padding: 10px;
+ vertical-align: middle;
+}
+.ruta-row-image{
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+   }
+.alojamiento-img{
+    padding: 10px;
+}
+.alojamiento-list{
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.alojamientos{
+    display: flex;
+    flex-direction: row;
+}
+
+.center {
+    width: 50%;
+    padding: 10px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 10px
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:olive;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .restaurantes-list{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  .list-images{
+      display: flex;
+      flex-direction: row;
+  }
